@@ -1,1 +1,10 @@
-{"index.js":"function freezeObj() {\n  \"use strict\";\n  const MATH_CONSTANTS = {\n    PI: 3.14\n  };\n Object.freeze(MATH_CONSTANTS);\n  try {\n    MATH_CONSTANTS.PI = 99;\n  } catch( ex ) {\n    console.log(ex);\n  }\n  return MATH_CONSTANTS.PI;\n}\nconst PI = freezeObj();"}
+function freezeObj() {
+      const MATH_CONSTANTS = {
+             PI: 3.14  };
+              Object.freeze(MATH_CONSTANTS);
+               try {
+                     MATH_CONSTANTS.PI = 99;  } 
+                     catch( ex ) {   
+                         console.log(ex); } 
+                         return MATH_CONSTANTS.PI;}
+                         nconst PI = freezeObj();

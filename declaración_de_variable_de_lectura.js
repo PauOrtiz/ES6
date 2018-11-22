@@ -1,1 +1,5 @@
-{"index.js":"function printManyTimes(str) {\n  \"use strict\";\n\n  // change code below this line\n\n  const SENTENCE = str + \" is cool!\";\n  for(let i = 0; i < str.length; i+=2) {\n    console.log(SENTENCE);\n  }\n\n  // change code above this line\n\n}\nprintManyTimes(\"freeCodeCamp\");"}
+function printManyTimes(str) {
+	      const SENTENCE = str + \" GENIAL!\";
+		  for(let i = 0; i < str.length; i+=2)
+          console.log(SENTENCE);  }
+          printManyTimes("SIGUE ASÍ");

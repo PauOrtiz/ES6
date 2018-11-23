@@ -1,0 +1,1 @@
+{"index.js":"\nconst myConcat=(arr1,arr2)=>{\n  return arr1.concat(arr2);\n};\n// test your code\nconsole.log(myConcat([1, 2], [3, 4, 5]));"}
